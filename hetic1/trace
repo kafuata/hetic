@@ -1,0 +1,21 @@
+rake aborted!
+Interrupt: 
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/web-console-2.3.0/lib/web_console/extensions.rb:1:in `<top (required)>'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/web-console-2.3.0/lib/web_console/railtie.rb:9:in `block in <class:Railtie>'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/railties-4.2.6/lib/rails/initializable.rb:30:in `instance_exec'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/railties-4.2.6/lib/rails/initializable.rb:30:in `run'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/railties-4.2.6/lib/rails/initializable.rb:55:in `block in run_initializers'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/railties-4.2.6/lib/rails/initializable.rb:54:in `run_initializers'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/railties-4.2.6/lib/rails/application.rb:352:in `initialize!'
+/home/hetic/hetic/hetic1/config/environment.rb:5:in `<top (required)>'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/railties-4.2.6/lib/rails/application.rb:328:in `require'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/railties-4.2.6/lib/rails/application.rb:328:in `require_environment!'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/gems/railties-4.2.6/lib/rails/application.rb:457:in `block in run_tasks_blocks'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/bin/ruby_executable_hooks:15:in `eval'
+/home/hetic/.rvm/gems/ruby-2.2.1@heticall/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => db:migrate => environment
+(See full trace by running task with --trace)
