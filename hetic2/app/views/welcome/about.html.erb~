@@ -1,0 +1,5 @@
+<h1>Welcome#about</h1>
+This is a test project 
+<p>Find me in app/views/welcome/about.html.erb</p>
+
+<%= render "navbar" -%>
